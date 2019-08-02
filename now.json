@@ -1,7 +1,10 @@
 {
   "version": 2,
-  "alias": ["denisfl.ru"],
+  "alias": ["denisfl.ru", "denisfl"],
   "github": {
     "enabled": false
-  }
+  },
+  "builds": [
+    { "src": "*.html", "use": "@now/static" }
+  ]
 }
