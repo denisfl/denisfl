@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>🚀🎉👻 Денис Федосов-Ледовских</title>
+    <style>
+      :root {
+        --baseFontSize: 20;
+        --baseLineHeight: 1.8;
+
+        --leading: calc(var(--baseLineHeight) * 1rem);
+        --linkColor: #1651B3;
+        --linkColorHover: #d00;
+      }
+
+      @media (min-width: 600px) {
+        :root {
+          --baseFontSize: 30;
+          --baseLineHeight: 2.4;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        line-height: var(--baseLineHeight);
+        font-size: calc(var(--baseFontSize) / 18 * 100%);
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      .layout {
+        display: grid;
+        margin: auto;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        max-width: 600px;
+        min-height: 100vh;
+        align-content: center;
+      }
+      p {
+        line-height: calc(1.2 * var(--leading));
+        margin-top: var(--leading);
+        margin-bottom: 0;
+      }
+      a {
+        color: var(--linkColor);
+        text-decoration: underline;
+        transition: color .15s ease-in-out;
+      }
+      a:hover {
+        color: var(--linkColorHover);
+        text-decoration: underline;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <p>Привет!</p>
+      <p>Меня зовут Денис Федосов-Ледовских. Я&nbsp;занимаюсь разработкой интерфейсов: продумываю&nbsp;UX, прототипирую, верстаю и&nbsp;пишу на&nbsp;JavaScript.</p>
+      <p>
+        <a href="./assets/files/denisfl_cv_ru.pdf">Резюме в .pdf</a>
+      </p>
+    </div>
+  </body>
+</html>
